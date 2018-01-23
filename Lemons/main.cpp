@@ -9,7 +9,7 @@
 #include <iostream>
 #include <string>
 
-int main() {
+int oldMain() {
     //insert code here...
     std::cout << "Hello, World!" << std::endl;
     
