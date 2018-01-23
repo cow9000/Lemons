@@ -7,11 +7,16 @@
 //
 
 #include <iostream>
+#include <string>
 
 int main() {
     //insert code here...
     std::cout << "Hello, World!" << std::endl;
     
+    std::string input;
+    
+    std::getline(std::cin, input);
+    std::cout << "You said: " << input << std::endl;
     
     return 0;
 }
